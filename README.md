@@ -4,15 +4,15 @@ A real-time fraud detection platform for Ethereum wallets using Go, PostgreSQL, 
 
 ## Architecture
 
-- **Backend**: Go with WebSocket support for real-time monitoring
+- **Backend**: Go with WebSocket support for real time data and figures
 - **Database**: PostgreSQL for transaction storage and analytics
-- **Frontend**: Next.js dashboard with real-time updates
+- **Frontend**: Next.js dashboard with constant updates
 - **Blockchain**: Alchemy API for Ethereum data indexing
 
 ## Features
 
-- Real-time transaction monitoring via WebSockets
-- Multi-heuristic fraud detection:
+- Real time transaction monitoring via WebSockets
+- layered fraud detection:
   - Large/unusual transfers
   - Blacklisted address detection
   - Unusual timing patterns
